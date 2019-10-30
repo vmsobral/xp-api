@@ -1,0 +1,4 @@
+rootProject.name = 'xp-api'
+include 'usecases', 'http-api', 'application'
+include 'adapters'
+

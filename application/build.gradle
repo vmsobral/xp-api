@@ -1,0 +1,15 @@
+apply plugin: 'application'
+
+mainClassName = "br.com.xpapi.Boot"
+
+applicationDefaultJvmArgs = [
+        "-server",
+        "-XX:+UseNUMA",
+        "-XX:+UseParallelGC",
+        "-Duser.timezone=America/Sao_Paulo"
+]
+
+dependencies {
+    compile project(":usecases")
+    compile project(":http-api")
+}

@@ -1,0 +1,219 @@
+{
+  "positions": [
+    {
+      "items": [
+        {
+          "title": "NTNB PRINC",
+          "nickname": "Tesouro IPCA+2035",
+          "amount": 7389.97,
+          "additionalData": [
+            [
+              "Valor aplicado",
+              "R$ 6.000,79"
+            ],
+            [
+              "Vencimento",
+              "15/05/2035"
+            ]
+          ]
+        },
+        {
+          "title": "NTNB PRINC",
+          "nickname": "Tesouro IPCA+2019",
+          "amount": 18437.61,
+          "additionalData": [
+            [
+              "Valor aplicado",
+              "R$ 14.994,34"
+            ],
+            [
+              "Vencimento",
+              "15/05/2019"
+            ]
+          ]
+        },
+        {
+          "title": "LFT",
+          "nickname": "Tesouro Selic 2023",
+          "amount": 10322.66,
+          "additionalData": [
+            [
+              "Valor aplicado",
+              "R$ 9.767,16"
+            ],
+            [
+              "Vencimento",
+              "01/03/2023"
+            ]
+          ]
+        },
+        {
+          "title": "LTN",
+          "nickname": "Tesouro Prefixado 2023",
+          "amount": 13579.40,
+          "additionalData": [
+            [
+              "Valor aplicado",
+              "R$ 10.231,80"
+            ],
+            [
+              "Vencimento",
+              "01/01/2023"
+            ]
+          ]
+        }
+      ],
+      "name": "Tesouro Direto",
+      "balance": 49729.64,
+      "percent": 61.8,
+      "investedValue": 40994.09
+    },
+    {
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "actions": [
+            {
+              "title": "Saiba mais",
+              "action": 2
+            }
+          ],
+          "title": "Multimercados",
+          "nickname": "Solana ABS FIC FIM",
+          "amount": 9538.81,
+          "additionalData": [
+            [
+              "Valor aplicado",
+              "R$ 10.000,00"
+            ],
+            [
+              "Rendimento",
+              "R$ -461,19"
+            ],
+            [
+              "Valor líquido",
+              "R$ 9.538,81"
+            ],
+            [
+              "Período de resgate",
+              "D+27 (Dias Corridos)"
+            ]
+          ]
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "actions": [
+            {
+              "title": "Saiba mais",
+              "action": 2
+            }
+          ],
+          "title": "Renda Variável",
+          "nickname": "XP LB 30 FIC FIM",
+          "amount": 10687.91,
+          "additionalData": [
+            [
+              "Valor aplicado",
+              "R$ 10.000,00"
+            ],
+            [
+              "Rendimento",
+              "R$ 687,91"
+            ],
+            [
+              "Valor líquido",
+              "R$ 10.584,73"
+            ],
+            [
+              "Período de resgate",
+              "D+30 (Dias Corridos)"
+            ]
+          ]
+        }
+      ],
+      "productType": 1,
+      "endpoint": {
+        "detail": "getInvestmentFundsDetail",
+        "investment": "sendInvestmentFundsOrder",
+        "redemption": "sendInvestmentFundsOrder",
+        "orderValidation": "getInvestmentFundsOrderValidation",
+        "orderRedemptionValidation": "getRedemptionFundsOrderValidation"
+      },
+      "name": "Fundos de Investimentos",
+      "balance": 20226.72,
+      "percent": 25.1,
+      "investedValue": 20000.0
+    },
+    {
+      "items": [
+        {
+          "title": "Ação",
+          "nickname": "B3SA3",
+          "amount": 5070.00,
+          "additionalData": [
+            [
+              "Empresa",
+              "B3"
+            ],
+            [
+              "Preço atual",
+              "R$ 25,35"
+            ],
+            [
+              "Quantidade",
+              "200,00"
+            ]
+          ]
+        },
+        {
+          "title": "Ação",
+          "nickname": "ITUB4",
+          "amount": 5439.50,
+          "additionalData": [
+            [
+              "Empresa",
+              "Itauunibanco"
+            ],
+            [
+              "Preço atual",
+              "R$ 49,45"
+            ],
+            [
+              "Quantidade",
+              "110,00"
+            ]
+          ]
+        }
+      ],
+      "name": "Ações",
+      "balance": 10509.50,
+      "percent": 13.0,
+      "investedValue": 0.0
+    },
+    {
+      "items": [
+        {
+          "title": "DIVIDENDO",
+          "nickname": "ITUB4",
+          "amount": 1.65,
+          "additionalData": [
+            [
+              "Data de pagamento",
+              "01/11/2018"
+            ]
+          ]
+        }
+      ],
+      "name": "Proventos",
+      "balance": 1.65,
+      "percent": 0.0,
+      "investedValue": 0.0
+    }
+  ],
+  "summary": {
+    "netWorth": 80467.51,
+    "investedValue": 80467.51,
+    "balance": 0.0,
+    "forecast": 0.0
+  }
+}
